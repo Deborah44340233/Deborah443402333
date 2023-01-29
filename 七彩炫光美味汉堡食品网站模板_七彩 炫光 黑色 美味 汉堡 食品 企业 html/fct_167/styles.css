@@ -1,0 +1,151 @@
+* {
+	margin:0;
+	padding:0;
+}
+body  {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background: #3d3d3d url(images/siteBackground.jpg) repeat-x left top;
+	color: #4e4e4e;
+}
+a {
+	color:#d11e6d; 
+	font-size:12px;
+	text-decoration:underline;
+}
+a:hover {
+	color:#d11e6d; 
+	font-size:12px;
+	text-decoration:none;
+}
+#container { 
+	width: 800px; 
+	margin: 0 auto; 
+}
+.sandwich {
+	position:absolute;
+	margin:150px 0 0 250px;
+}
+#header {
+	height:398px;
+	background:url(images/pageBackground.jpg) no-repeat 50px top;
+}
+h1 {
+	font-size:60px;
+	color:#636049;
+}
+.logo {
+	color:#ffffff;
+	font-size:60px;
+	padding:20px 0 0 0;
+}
+.logo span {
+	color:#d11e6d;
+}
+.author {
+	text-align:right;
+	color:#FFF;
+}
+.menu {
+	background:url(images/menuBackground.png) no-repeat left top;
+	width:800px;
+	height:40px;
+	margin:20px 0 0 0;
+	text-align:center;
+}
+.menu ul {
+	padding:5px 0 0 0;
+}
+.menu li {
+	list-style:none;
+	display:inline;
+	margin:0 10px 0 10px;
+}
+.menu li a {
+	color:#675d54;
+	font-size:24px;
+	text-decoration:none;
+}
+.menu li a:hover {
+	color:#d11e6d;
+	font-size:24px;
+	text-decoration:none;
+}
+.menu li, #active a {
+	color:#d11e6d;
+	font-size:24px;
+	text-decoration:none;
+}
+.slogan {
+	font-size:60px;
+	color:#FFF;
+	padding:20px 0 0 0;
+}
+.slogan span {
+	color:#d11e6d;
+}
+.pageTop {
+	background:url(images/pageTop.png) no-repeat left top;
+	height:25px;
+}
+.pageBody {
+	background:url(images/pageBody.png) repeat-y left top;
+	padding:0 27px;
+}
+.pageBottom {
+	background:url(images/pageBottom.png) no-repeat left top;
+	height:27px;
+}
+#sidebar1 {
+	float: right; 
+	width: 233px; 
+}
+.sTop {
+	background:url(images/sidebarTop.jpg) no-repeat left top;
+	height:15px;
+}
+.sBottom {
+	background:url(images/sidebarBottom.jpg) no-repeat left top;
+	height:12px;
+}
+.sBody {
+	background:url(images/sidebarBackground.jpg) repeat-y left top;
+	padding:0 45px 0 20px;
+}
+.sBody li {
+	list-style:none;
+	background:url(images/p.png) no-repeat left 5px;
+	padding-left:15px;
+	margin:3px 0;
+}
+h2 {
+	color:#d11e6d;
+	font-size:14px;
+	font-weight:bold;
+}
+#mainContent { 
+	margin: 0 250px 0 0; 
+}
+#mainContent p {
+	padding:20px 0;
+}
+#footer {
+	text-align:center;
+}
+.footerTop {
+	background:url(images/pageTop.png) no-repeat left top;
+	height:25px;
+}
+.footerBody {
+	background:url(images/pageBody.png) repeat-y left top;
+}
+.footerBottom {
+	background:url(images/pageBottom.png) no-repeat left top;
+	height:27px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
